@@ -19,15 +19,18 @@ provider "aws" {
   <br/>
   secret_key = "AWS_SECRET_KEY"
   <br/>
-}
-</p>
+}</p>
 <br/>
 <h4>Commands</h4>
-<br/>
 terraform init
 <br/>
-terraform fmt and terraform fmt
+terraform fmt
+<br/>
+terraform validate
 <br/>
 terraform plan
 <br/>
 terraform apply --auto-approve
+<br/>
+<h4>Destroy all Resources created for this deployment</h4>
+terrafor destroy --auto-approve
