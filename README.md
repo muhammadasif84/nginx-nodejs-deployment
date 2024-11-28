@@ -1,4 +1,4 @@
-# nginx-nodejs-deployment
+# nodejs-ec2-deployment
 
 <h2>Node.Js deployment on ec2 using terraform, pm2.</h2>
 <br/>
@@ -31,6 +31,6 @@ terraform plan
 <br/>
 terraform apply --auto-approve
 <br/>
-<h5>run public ip in browser, it should show "Node.js server is running on Ubuntu EC2" </h5>
+<h5>run public_ip address of ec2 in browser, it should show "Node.js server is running on Ubuntu EC2" </h5>
 <h4>Destroy all Resources created for this deployment</h4>
 terraform destroy --auto-approve
