@@ -6,7 +6,7 @@
 <br/>
 2- Add user_data for configuration setup => node.js, npm and pm2
 <br/>
-<h3>Please follow these following step to deploy Node.Js server on Aws EC2<h/3>
+<h3>Please follow these following step to deploy Node.Js server on Aws EC2</h3>
 <br/>
 <p>
 Replace these creds in providers.tf 
