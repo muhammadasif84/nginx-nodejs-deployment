@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 APP_DIR="/home/ubuntu/nodejs-app"
 mkdir -p "$APP_DIR"
 cd "$APP_DIR"
@@ -25,12 +24,9 @@ if ! command -v node &> /dev/null; then
   sudo apt-get install -y nodejs
 fi
 
-
 sudo npm install -g pm2
 
 pm2 start server.js --name "nodejs-app"
-
-
 pm2 save
 pm2 startup | sudo bash
 
