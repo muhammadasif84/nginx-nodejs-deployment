@@ -9,7 +9,7 @@
 <h3>Please follow these following step to deploy Node.Js server on Aws EC2</h3>
 <br/>
 <p>
-Replace these creds in providers.tf 
+i- Replace these creds in providers.tf 
 <br/>
 provider "aws" {
     <br/>
@@ -21,3 +21,13 @@ provider "aws" {
   <br/>
 }
 </p>
+<br/>
+<h4>Commands</h4>
+<br/>
+terraform init
+<br/>
+terraform fmt and terraform fmt
+<br/>
+terraform plan
+<br/>
+terraform apply --auto-approve
