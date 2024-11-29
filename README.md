@@ -9,17 +9,8 @@
 <h3>Please follow these following step to deploy Node.Js server on Aws EC2</h3>
 <br/>
 <p>
-i- Replace these creds in providers.tf 
+i- Edit example-terraform.tfvars to terraform.tfvars and add all values.
 <br/>
-provider "aws" {
-    <br/>
-  region     = "AWS_REGION"
-  <br/>
-  access_key = "AWS_ACCESS_KEY"
-  <br/>
-  secret_key = "AWS_SECRET_KEY"
-  <br/>
-}</p>
 <h4>Commands</h4>
 terraform init
 <br/>
