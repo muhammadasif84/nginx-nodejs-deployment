@@ -31,39 +31,6 @@ resource "aws_instance" "aws-ec2" {
 
   user_data = file("${path.module}/userData.sh")
 
-  #defining connection for all provisioners , docs link of provisioner https://developer.hashicorp.com/terraform/language/resources/provisioners/local-exec
-  #   connection {
-  #     type        = "ssh"
-  #     user        = "ubuntu"
-  #     private_key = file("${path.module}/id_rsa")
-  #     host        = self.public_ip
-  #   }
-  #   provisioner "file" {
-  #     content     = "This is content from provisioner"
-  #     destination = "/tmp/content.md"
-  #   }
-
-  #   provisioner "remote-exec" {
-
-  #     inline = [
-  #       "sudo apt-get update ",
-  #       "curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash -",
-  #       "sudo apt-get update ",
-  #       "sudo apt install -y nodejs",
-
-
-
-
-
-  #       "sudo apt-get install nginx -y",
-  #       "sudo rm -rf /var/www/html/*",
-  #       "sudo cp -r /tmp/build/* /var/www/html/",
-  #       "sudo systemctl start nginx",
-  #       "sudo systemctl enable nginx"
-  #     ]
-
-
-  #   }
 }
 
 output "elastic-ip" {
