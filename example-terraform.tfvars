@@ -7,8 +7,8 @@ ssh-access = "paste you id_rsa of key-pair for ssh"
 ports      = [22, 80]
 
 #instance configurations
-instance-type = "t2.micro"
-image-name    = "ubuntu/images/hvm-ssd-gp3/ubuntu-noble-24.04-amd64-server-*"
+instance-type = "paste instance type"
+image-name    = "paste image name here"
 region        = "paste your region in which these resources will be created"
 ownername     = "paste owner id"
 
